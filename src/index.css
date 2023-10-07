@@ -1,13 +1,126 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto+Condensed:wght@300;400;700&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.bgMain{
+  background-color: #4FA74F;
+}
+.textMain{
+  color: #4FA74F;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.w-5{
+  width: 5%;
+}
+.w-8{
+  width: 8%;
+}
+.w-90{
+  width: 90%;
+}
+.adding {
+  bottom: -150%;
+  transition: all 0.5s;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.product {
+  border: solid 2px transparent;
+  box-shadow: transparent 0px 5px 15px;
+  transition: 0.5s all;
+}
+.product:hover{
+  border: solid 2px #4FA74F;
+  box-shadow: 0px 5px 15px #4FA74F;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.product:hover .adding {
+  bottom: 1%;
+}
+.offline{
+  position: fixed;
+  bottom:  0;
+  left: 0;
+  z-index: 88888888888;
+  padding: 10px 20px;
+  border-end-end-radius: 15px;
+  border-top-right-radius: 15px;
+  margin: 20px 0;
+}
+.bg-sec{
+  background-color: #F8F9FA;
+}
+.borderMain{
+  border: #4FA74F 2px solid;
+  border-radius: 5px;
+}
+.cartCount {
+  position: absolute;
+  top: 0;
+  background-color: #4FA74F ;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 10px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  footer.icons {
+    width: 100%;
+    display: flex;
+
+flex-wrap: wrap; 
+
+}
+
+  footer.icons img {
+    width: 15%;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  footer.icons {
+      width: 100%;
+      display: flex;
+  
+      flex-wrap: wrap;
+  
+    }
+
+  footer.icons img {
+    width: 15%;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  footer .icons {
+    width: 50%;
+  }
+
+  footer .icons img {
+    width: 10%;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  footer .icons {
+    width: 50%;
+  }
+
+  footer .icons img {
+    width: 10%;
+  }
 }

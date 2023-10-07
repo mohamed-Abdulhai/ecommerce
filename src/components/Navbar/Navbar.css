@@ -1,0 +1,13 @@
+.navbar .navbar-nav .nav-item .nav-link,.navbar .navbar-nav .nav-item .Ancor{
+    color: black;
+    transition: all 0.2s;
+    font-size: large;
+}
+.navbar .navbar-nav .nav-item .Ancor{
+    font-size: x-large;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover,.navbar .navbar-nav .nav-item .nav-link.navActive,.navbar .navbar-nav .nav-item .Ancor:hover{
+    color: #4FA74F;
+}
+
+
