@@ -39,7 +39,7 @@ export default function Categories() {
 </div>
 </>  
 : <>
-<div className="container Categories my-5 text-center">
+<div className="container Categories my-5 text-center minH">
 
 <div className='row g-4'>
 

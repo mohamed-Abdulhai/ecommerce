@@ -59,7 +59,7 @@ async function clearCart(){
       {isLoding? <section className='w-100 d-flex justify-content-center align-items-center position-fixed start-0 end-0 top-0 bottom-0 bg-white z-3'>
               <ClockLoader  color="#4FA74F"  />
           </section>:''}
-      <div className="cart py-5">
+      <div className="cart py-5 minH">
         <div className="container py-2">
           {cartDetails1 ? <div className="w-75 m-auto p-3">
             <h2>Cart Shop</h2>

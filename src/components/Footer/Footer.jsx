@@ -20,34 +20,19 @@ export default function Footer() {
         <footer className='py-4 bg-body-tertiary position-relative bottom-0 start-0 end-0 mt-3'>
             <div className="container">
                 <div className="footer">
-                    <div className="text-content">
-                    <h3>Get the Cart app</h3>
-                    <p className='text-muted'>We will send you a link, open it on your phone to download</p>
-                </div>
-                    <div className="row">
-                        <div className="col-md-10">
-                            <input type="email" className='mx-1 form-control my-2' name='email' />
-                        </div>
-                        <div className="col-md-2">
-                            <button className=' btn bgMain btn-success w-100 mx-1 my-2'>Share App Link</button>
-                        </div>
-                    </div>
-                    <hr className='my-4' />
-                    <div className="d-flex justify-content-between">
-                        <div className="icons d-flex align-items-center">
-                            <span className='h5 mx-2'>Payment Partners</span>
-                            <img src={amzon} className=' mx-1'  alt="" />
-                            <img src={american} className=' mx-1' alt="" />
-                            <img src={card} className=' mx-18 alt=""' />
-                            <img src={paypal} className=' mx-1' alt="" />
-                        </div>
-                        <div className="icons d-flex justify-content-end align-items-center">
-                            <span className='h5 mx-2'>Get deliveries with Fresh Cart</span>
-                            <img src={google} className=' mx-1' alt="" />
-                            <img src={apple} className=' mx-1' alt="" />
+                    <div className="firstContant py-2">
+                        <h3 className='my-2'>Get the FreshCart app</h3>
+                        <p className='text-muted mb-3'>We will send you a link,open it on your phone to download the app. </p>
+                        <div className="row">
+                            <div className="col-md-10 col-sm-6">
+                                <input className='form-control mx-1 my-1' type="email" placeholder='Email' />
+                            </div>
+                            <div className="col-md-2 col-sm-6">
+                                <button type="button" className='w-100 btn btn-success bgMain mx-1 my-1'>Share App Link</button>
+                            </div>
                         </div>
                     </div>
-                    <hr className='mt-4' />
+                    
                 </div>
             </div>
     </footer>

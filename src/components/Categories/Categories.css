@@ -1,3 +1,4 @@
 .Categories .card:hover {
+    -webkit-box-shadow: #0aad0a91 0px 8px 13px;
     box-shadow: #0aad0a91 0px 8px 13px
 }

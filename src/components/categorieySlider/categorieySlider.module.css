@@ -1,1 +1,39 @@
-.CategorieySlider {}
+/* CategorieySlider.module.css */
+
+/* Body and HTML overflow rule */
+:global(body),
+:global(html) {
+    overflow-x: hidden;
+}
+
+/* Optional: Adjust the max-width for the images if needed */
+.slick-slide img {
+    max-width: 100%;
+}
+
+/* Container styles for responsiveness */
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    /* Adjust as needed */
+    box-sizing: border-box;
+}
+
+/* Heading styles */
+.heading {
+    font-size: 1.5rem;
+    /* Adjust as needed */
+    margin-top: 1rem;
+    /* Adjust as needed */
+}
+
+/* Image styles */
+.image {
+    height: 200px;
+    /* Adjust as needed */
+    object-fit: cover;
+    border-radius: 8px;
+    /* Optional: Add border-radius for images */
+}
+
